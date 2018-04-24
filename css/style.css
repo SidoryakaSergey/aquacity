@@ -1,0 +1,11 @@
+body{
+	color: blue;
+	background: #f8f8f8;
+}
+
+.header{
+	/* background-size: cover; */
+	height: 500px;
+	background: url("../img/header.jpg") no-repeat center;
+	background-size: cover;
+}
