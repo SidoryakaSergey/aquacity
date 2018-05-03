@@ -9,3 +9,7 @@ body{
 	background: url("../img/header.jpg") no-repeat center;
 	background-size: cover;
 }
+
+.zakaz{
+	border: 1px solid;
+}

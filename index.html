@@ -37,18 +37,71 @@
 
     <main class="main">
         <div class="container">
-            <div class="row">
-                <h3 class="text-center">Наше приемущество</h3>
+            <div class="row d-flex justify-content-center">
+                <h3>Наши приемущества</h3>
             </div>
             <div class="row">
-                <div class="col-3">
-                    <div class="">
-                        <i class="fa fa-pagelines"></i>
+                <div class="col-lg-4">
+                    <div class="d-flex justify-content-center">
+                        <h4>Дешиво</h4>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="d-flex justify-content-center">
+                        <h4>Сердито</h4>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="d-flex justify-content-center">
+                        <h4>Красиво</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Наша продукция -->
+        <div class="container">
+            <div class="row d-flex justify-content-center">
+                <h3>Наша продукция</h3>
+            </div>
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="d-flex justify-content-center">
+                        <h4>Осетр</h4>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="d-flex justify-content-center">
+                        <h4>Стерлядь</h4>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="d-flex justify-content-center">
+                        <h4>Карп</h4>
                     </div>
                 </div>
             </div>
         </div>
     </main>
+
+    <div class="zakaz">
+        <div class="container">
+                <form action="http://postmail.invotes.com/send"
+                    method="post" id="email_form">
+                    <input type="text" name="subject" placeholder="Subject" />
+                    <textarea name="text" placeholder="Message"></textarea>
+                    <input type="hidden" name="access_token" value="abc123" />
+                    <input type="hidden" name="success_url" value="." />
+                    <input type="hidden" name="error_url" value=".?err=1" />
+                    <input id="submit_form" type="submit" value="Send" />
+                </form>
+        </div>
+    </div>
+
+    <div class="gallery">
+        <h1>Галерея</h1>
+    </div>
+
+
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
