@@ -1,15 +1,17 @@
 body{
-	color: #4169E1;
-	background: #f8f8f8;
+	color: black;
+	/*background: #f8f8f8;*/
+	background: rgba(176,196,222,0.8);
+
 }
 
 .header{
 	/* background-size: cover; */
-	height: 500px;
-	background: url("../img/header.jpg") no-repeat center;
-	background-size: cover;
+	height: 300px;
+	background: url("../img/header_bg.png") no-repeat center;
+	background-size: contain;
 
-	text-align: center;
+	border: 1px solid;
 }
 
 .zakaz{
