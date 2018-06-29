@@ -1,9 +1,13 @@
 body{
 	color: black;
-	/*background: #f8f8f8;*/
-	background: rgba(176,196,222,0.8);
-
+	background: #f8f8f8;
+	/*background: rgba(176,196,222,0.8);*/
 }
+
+.main{
+	padding-bottom: 30px;
+}
+
 
 .header{
 	/* background-size: cover; */
@@ -11,9 +15,64 @@ body{
 	background: url("../img/header_bg.png") no-repeat center;
 	background-size: contain;
 
-	border: 1px solid;
+	/*border: 1px solid;*/
 }
 
-.zakaz{
-	border: 1px solid;
+.mytop{
+	background: #1f3c85;
+	color: #ffffff;
+}
+
+.logo{
+	margin-top: 10px;
+}
+
+.mytop__name{
+	/*font-family: 'Roboto', sans-serif;*/
+	font-family: 'Oswald', sans-serif;
+	font-size: 32px;
+	font-weight: bold;
+}
+
+.mytop__brend{
+	/*font-family:'Source Serif Variable', sans-serif;*/
+	font-family: 'Patua One', cursive;
+	font-weight: bold;
+	font-size: 78px;
+}
+
+.mytop__fish{
+	/*font-family: 'Sylfaen', sans-serif;*/
+	font-family:'Courier New',sans-serif;
+	font-size: 14px;
+}
+
+.mytop_right{
+	font-family: 'Oswald', sans-serif;
+	font-size: 26px;
+}
+
+.mytop_slogan{
+	font-family: 'Oswald', sans-serif;
+	font-size: 16px;
+}
+
+.caption{
+	font-family: 'Oswald', sans-serif;
+	font-size: 32px;
+	padding: 20px;
+}
+
+.bold{
+	font-weight: bold;
+}
+
+.card__line{
+	line-height:0.5em
+}
+
+.footer{
+	background: #1f3c85;
+	color: #ffffff;
+	padding-bottom: 30px;
 }
